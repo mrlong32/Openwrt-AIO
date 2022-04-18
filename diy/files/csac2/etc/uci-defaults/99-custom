@@ -1,7 +1,7 @@
 #!/bin/sh
 [ "$(uci -q get system.@system[0].init)" != "" ] && exit 0
 #set lan ip
-uci set network.lan.ipaddr='192.168.10.1'
+uci set network.lan.ipaddr='192.168.1.3'
 uci commit network
 
 uci set system.@system[0].zonename='Asia/Shanghai'
@@ -33,4 +33,4 @@ uci commit firewall
 
 #edit feeds
 sed -i 's/downloads.openwrt.org/mirrors.ustc.edu.cn\/openwrt/g' /etc/opkg/distfeeds.conf
-echo 'src/gz custom https://drive.939.me/api/raw/?path=/Openwrt/Package/ramips-mt7621' >> /etc/opkg/distfeeds.conf
+#echo 'src/gz custom https://drive.939.me/api/raw/?path=/Openwrt/Package/ramips-mt7621' >> /etc/opkg/distfeeds.conf
