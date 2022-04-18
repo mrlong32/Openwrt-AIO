@@ -5,7 +5,7 @@
 # <https://github.com/Chikage0o0/openwrt-packages>
 #
 
-name: Image-Build
+name: csac-Build
 on:
   workflow_dispatch:
     inputs:
