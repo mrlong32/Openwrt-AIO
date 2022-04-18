@@ -13,7 +13,7 @@
 
 #make image PROFILE="xiaomi_mi-router-4" PACKAGES="luci luci-lib-ipkg -dnsmasq dnsmasq-full luci-i18n-opkg-zh-cn luci-i18n-firewall-zh-cn luci-i18n-base-zh-cn luci-compat luci-lib-ipkg" FILES="files"
 
-make image PROFILE="phicomm_k2p" PACKAGES="luci luci-lib-ipkg -dnsmasq dnsmasq-full luci-i18n-opkg-zh-cn luci-i18n-firewall-zh-cn luci-i18n-base-zh-cn luci-compat luci-lib-ipkg" FILES="files"
+make image PROFILE="csac2" PACKAGES="luci luci-lib-ipkg -dnsmasq dnsmasq-full luci-i18n-opkg-zh-cn luci-i18n-firewall-zh-cn luci-i18n-base-zh-cn luci-compat luci-lib-ipkg" FILES="files"
 
 #make image PROFILE="xiaomi_mi-router-4a-gigabit" PACKAGES="luci luci-lib-ipkg -dnsmasq dnsmasq-full luci-i18n-opkg-zh-cn luci-i18n-firewall-zh-cn luci-i18n-base-zh-cn luci-compat luci-lib-ipkg" FILES="files"
 
