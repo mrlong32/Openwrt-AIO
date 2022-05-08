@@ -13,8 +13,8 @@ on:
     paths:
       - '.github/workflows/upstream.yml'
       - '.gitignore'
-  schedule:
-    - cron: 0 0 * * *
+#  schedule:
+#    - cron: 0 0 * * *
 
 jobs:
   merge:
